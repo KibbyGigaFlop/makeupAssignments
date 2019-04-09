@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.99990000000253" prefWidth="260.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="KilometerConverterController">
+  <children>
+    <Label id="promptLabel" layoutX="12.0" layoutY="25.0" text="Enter a distance in kilometers:" />
+    <TextField fx:id="kilometerTextField" layoutX="185.0" layoutY="25.0" prefHeight="16.000099999997474" prefWidth="57.0" />
+    <Label fx:id="outputLabel" layoutX="28.0" layoutY="64.0" prefHeight="17.0" prefWidth="220.0" text="" />
+    <Button fx:id="convertButton" layoutX="84.0" layoutY="97.0" mnemonicParsing="false" onAction="#convertButtonListener" text="Convert to Miles" />
+  </children>
+</AnchorPane>

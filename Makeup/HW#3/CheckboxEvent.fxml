@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="104.0" prefWidth="242.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="CheckboxEventController">
+  <children>
+    <CheckBox fx:id="checkBox" layoutX="86.0" layoutY="30.0" mnemonicParsing="false" onAction="#checkBoxListener" selected="true" text="((pardner))" />
+    <Label fx:id="outputLabel" layoutX="68.0" layoutY="61.0" prefWidth="113.0" text="" />
+  </children>
+</AnchorPane>
